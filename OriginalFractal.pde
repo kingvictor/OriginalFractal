@@ -1,12 +1,11 @@
 int num = 50;
-int joke = 255;
 public void setup()
 {size(600, 600);
  background(0.6);}
 public void draw()
 { fill(0.6);
   rect(-5, -5, 805, 805);
-  stroke(joke);
+  stroke(255);
   strokeWeight(2);
   fractal(300, 300, 700);}
 public void mousePressed()
